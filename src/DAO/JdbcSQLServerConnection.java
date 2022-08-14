@@ -24,6 +24,7 @@ public class JdbcSQLServerConnection {
             return conn;
         }
         catch(Exception ex){
+            System.out.println("JDbc errror");
             ex.printStackTrace();
         }
         return null;
